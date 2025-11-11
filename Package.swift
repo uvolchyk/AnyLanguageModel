@@ -25,7 +25,7 @@ let package = Package(
         .trait(name: "CoreML"),
         .trait(name: "MLX"),
         .trait(name: "Llama"),
-        .default(enabledTraits: ["MLX"]),
+        .default(enabledTraits: []),
     ],
     dependencies: [
         .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "600.0.0"),
@@ -47,17 +47,14 @@ let package = Package(
                 .product(
                     name: "MLXLLM",
                     package: "mlx-swift-examples",
-                    condition: .when(traits: ["MLX"])
                 ),
                 .product(
                     name: "MLXVLM",
                     package: "mlx-swift-examples",
-                    condition: .when(traits: ["MLX"])
                 ),
                 .product(
                     name: "MLXLMCommon",
                     package: "mlx-swift-examples",
-                    condition: .when(traits: ["MLX"])
                 ),
                 .product(
                     name: "Transformers",
