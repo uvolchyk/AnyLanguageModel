@@ -1,5 +1,5 @@
 {
-  "originHash" : "6d218d141c30fefb3083b5378f4203227e9cfe389d4911776b53336b7bd46326",
+  "originHash" : "4852df1e831840d59351297d579199a57e7b791b5f4003bdf660b4544053d28c",
   "pins" : [
     {
       "identity" : "eventsource",
@@ -17,15 +17,6 @@
       "state" : {
         "revision" : "4c6f2467d5bc72b062c7a9b7e4cd77a09635ea8b",
         "version" : "1.3.1"
-      }
-    },
-    {
-      "identity" : "llama.swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/mattt/llama.swift",
-      "state" : {
-        "revision" : "3de225073b905ac2be510b570af02ac122a8cc69",
-        "version" : "1.7039.0"
       }
     },
     {

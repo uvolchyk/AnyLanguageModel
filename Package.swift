@@ -64,6 +64,7 @@ let package = Package(
                 .product(
                     name: "Llama",
                     package: "llama.swift",
+                    condition: .when(traits: ["Llama"])
                 ),
             ]
         ),
